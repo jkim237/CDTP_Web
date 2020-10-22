@@ -3,21 +3,23 @@
 
 /*English*/
 
+
 /*Korean*/
+
 @font-face {
     font-family: 'GothicA1';
     src: url('../fonts/GothicA1-Black.woff') format('woff');
-
     font-family: 'SharpGrotesk';
-    src: url('../fonts/SharpGroteskUltExpBook.woff2') format('woff2'),
-    url('../fonts/SharpGroteskUltExpBook.woff') format('woff')
+    src: url('../fonts/SharpGroteskUltExpBook.woff2') format('woff2'), url('../fonts/SharpGroteskUltExpBook.woff') format('woff')
 }
 
 ::-webkit-scrollbar {
     display: none;
 }
 
+
 /*link styles*/
+
 a {
     text-decoration: none;
     color: white;
@@ -32,7 +34,7 @@ a:hover {
 /********** GLOBAL TYPOGRAPHY **********/
 
 ::selection {
-    color:dimgrey;
+    color: dimgrey;
 }
 
 .grid__8 button1 p en:hover {
@@ -48,6 +50,8 @@ a:hover {
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     font-family: "SharpGrotesk", "GothicA1", sans-serif;
     font-size: 3vw;
     -webkit-font-smoothing: antialiased;
@@ -64,9 +68,12 @@ en {
     color: dimgrey;
 }
 
+
 /********** INDEX **********/
 
+
 /*Nav*/
+
 .nav {
     color: white;
     display: flex;
@@ -79,39 +86,41 @@ en {
 }
 
 .nav__right {
-    padding-left: -30%;
+    display: flex;
 }
+
+.nav__right li {
+    margin-left: 20px;
+}
+
 
 /*Landing-Vid*/
 
 .landing_vid_container {
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
-    height: 80vh;
-    position: relative;
-    top: 4%;
 }
-
 
 .landing_vid {
     width: 100%;
 }
 
+
 /*Landing-Words*/
+
 .landing_words_container {
     color: white;
-    position: fixed;
-    bottom: 2%;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin: 0 2%;
+    margin-bottom: 2%;
 }
 
 .landing_words {
     font-size: 0.4em;
     line-height: 97%;
 }
+
 
 /********** COURSE **********/
 
@@ -240,6 +249,7 @@ en {
     bottom: 2%;
     right: 1%;
 }
+
 
 /********** CONTACT **********/
 
