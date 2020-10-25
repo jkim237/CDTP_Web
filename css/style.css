@@ -52,6 +52,7 @@ a:hover {
 body {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     font-family: "SharpGrotesk", "GothicA1", sans-serif;
     font-size: 3vw;
     -webkit-font-smoothing: antialiased;
@@ -60,7 +61,7 @@ body {
     line-height: .8em;
     vertical-align: text-bottom;
     width: 100vw;
-    height: 100vh;
+    height: calc(100vh - calc(100vh - 100%));
     background-color: black;
 }
 
