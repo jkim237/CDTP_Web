@@ -145,6 +145,7 @@ en {
 
 .course__vid2 {
     width: 40%;
+    height: 50%;
 }
 
 .grid_wrap {
@@ -183,7 +184,7 @@ en {
     grid-column-start: 2;
     grid-column-end: 6;
     display: flex;
-    width: 100%;
+    height: calc(100%);
     justify-content: center;
     position: relative;
     margin-top: 80px;
