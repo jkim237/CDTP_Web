@@ -61,7 +61,7 @@ body {
     line-height: .8em;
     vertical-align: text-bottom;
     width: 100vw;
-    height: calc(100vh - calc(100vh - 100%));
+    height: calc(100%);
     background-color: black;
 }
 
